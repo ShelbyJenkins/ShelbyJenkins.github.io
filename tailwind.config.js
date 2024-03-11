@@ -1,5 +1,5 @@
 import { genenerateTailwindTheme } from './src/utils/colorFun/src/index';
-import { CUSTOM_THEME } from './src/siteConfig';
+import { CUSTOM_THEME } from './easyConfig';
 
 const customTailwindTheme = genenerateTailwindTheme(CUSTOM_THEME, true);
 /** @type {import('tailwindcss').Config} */
@@ -23,7 +23,7 @@ export default {
 		screens: {
 			sm: { min: '1px', max: '767px' },
 			md: { min: '768px' },
-			lg: { min: '1024px' },
+			lg: { min: '1440px' },
 		},
 	},
 	darkMode: 'class',

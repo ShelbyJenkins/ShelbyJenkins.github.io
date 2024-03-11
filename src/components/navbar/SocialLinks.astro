@@ -1,6 +1,6 @@
 ---
 import { Icon } from 'astro-icon/components';
-import { easyConfig } from '../../siteConfig';
+import { easyConfig } from '../../../easyConfig';
 // See https://github.com/natemoo-re/astro-icon
 // and https://icon-sets.iconify.design/ for more icons
 ---
@@ -51,6 +51,26 @@ import { easyConfig } from '../../siteConfig';
 </div>
 <style>
 	@media (min-width: 768px) {
+		@media (min-width: 1440px) {
+			#social-links [data-icon] {
+				width: 4vb;
+				height: 4vb;
+			}
+			#social-icon {
+				width: 4vb;
+				height: 4vb;
+			}
+		}
+		@media (max-width: 1439px) {
+			#social-links [data-icon] {
+				width: 5vb;
+				height: 5vb;
+			}
+			#social-icon {
+				width: 8vb;
+				height: 8vb;
+			}
+		}
 		#social-widget-desktop {
 			container-name: socialWidget;
 			container-type: size;
@@ -69,13 +89,9 @@ import { easyConfig } from '../../siteConfig';
 		}
 
 		#social-icon {
-			width: 4vb;
-			height: 4vb;
 			transition: opacity 700ms 350ms;
 		}
 		#social-links [data-icon] {
-			width: 3vb;
-			height: 3vb;
 			color: theme(colors.semantic.on-surface-variant);
 		}
 		#social-links :is(a:hover) [data-icon] {
@@ -100,6 +116,8 @@ import { easyConfig } from '../../siteConfig';
 				transition: 0ms;
 				visibility: collapse;
 				opacity: 0;
+				width: 0vb;
+				height: 0vb;
 			}
 			span {
 				opacity: 1;
@@ -120,7 +138,7 @@ import { easyConfig } from '../../siteConfig';
 	@media (max-width: 767px) {
 		#social-links {
 			bottom: 9vh;
-			left: 1svw;
+			left: 3svw;
 			width: max-content;
 			max-width: 88vw;
 			flex-wrap: wrap;
