@@ -63,9 +63,6 @@
 		padding-bottom: 2vh;
 	}
 	@media (max-width: 767px) {
-		html {
-			font-size: 16px;
-		}
 		main {
 			padding-left: 3vw;
 			padding-right: 3vw;
@@ -93,12 +90,12 @@
 			padding-right: 2vw;
 		}
 		#article-text {
-			width: clamp(45ch, 70ch, 100%);
+			width: clamp(45ch, 70ch, 70%);
 		}
 	}
-	@media (min-width: 1440px) {
+	@media (min-width: 1281px) {
 		#article-text {
-			width: clamp(45ch, 80ch, 100%);
+			width: clamp(45ch, 80ch, 67%);
 		}
 	}
 

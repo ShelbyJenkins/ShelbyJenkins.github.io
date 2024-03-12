@@ -10,16 +10,24 @@ import icon from 'astro-icon';
 import tailwind from '@astrojs/tailwind';
 
 // Site Config
-import { easyConfig } from '/easyConfig';
+import { easyConfig } from '/src/utils/easyConfig';
 
 // https://astro.build/config
 export default defineConfig({
+	vite: {
+		resolve: {
+			preserveSymlinks: true, // Allows symlinking of public/personal-blog/posts to src/content/blog
+		},
+		build: {
+			reportCompressedSize: false,
+		},
+	},
 	server: {
 		host: true,
 		port: 4321,
 	},
 	output: 'static',
-	site: easyConfig.github_pages_url,
+	site: easyConfig.githubPagesUrl,
 	integrations: [
 		sitemap(),
 		icon(),
@@ -29,6 +37,9 @@ export default defineConfig({
 	],
 	markdown: {
 		remarkPlugins: [imgAttr, remarkUnwrapImages],
+		shikiConfig: {
+			wrap: true,
+		},
 	},
 	build: {
 		inlineStylesheets: 'never',
