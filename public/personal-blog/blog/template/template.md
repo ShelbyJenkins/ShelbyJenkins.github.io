@@ -64,3 +64,9 @@ You can adjust the size and even add captions like:
 ```
 
 See [this post for more information about images](https://shelbyjenkins.github.io/easy/blog/easy-a-b-c-markdown-specifics/).
+
+## Removing Posts
+
+You can remove anything from your blog by rename it so that the file or directory starts with an underscore.
+
+For example to remove the template simply rename the folder `public/personal-blog/blog/_template`
