@@ -4,7 +4,7 @@ title: 'GenAI: Retrieval is all you need'
 description: 'Cataloging the SotA options available for retrieval pipelines in Gen AI. With an attached spreadsheet.'
 
 # Published date is required and in the format of ISO-8601: `yyyy-mm-dd`. For more info see https://docs.astro.build/en/guides/content-collections/#working-with-dates-in-the-frontmatter
-publishedDate: 2024-03-17
+pubDate: 2024-03-17
 # Optionally specify an update date. If not provided, one will be generated from the git history. Only if the post has been changed since the day published.
 # updatedDate:
 heroImage: './hero.webp'
