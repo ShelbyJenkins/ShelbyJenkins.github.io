@@ -4,7 +4,7 @@
 		"dockerfile": "Dockerfile"
 	},
 
-	"runArgs": ["--publish", "4321:4321"],
+	"runArgs": ["--publish", "1234:1234"],
 	"remoteUser": "root",
 	"postCreateCommand": "npm install",
 	"customizations": {
