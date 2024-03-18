@@ -1,6 +1,6 @@
 ---
 title: 'Tested: Mixtral 8x7b vs. GPT-4 for boolean classification'
-pubDate: 2023-12-19
+publishedDate: 2023-12-19
 updatedDate: 2023-12-19
 heroImage: './hero.png'
 heroAlt: 'Test results.'
