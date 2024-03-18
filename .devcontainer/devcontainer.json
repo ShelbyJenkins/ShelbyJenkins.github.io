@@ -21,7 +21,8 @@
 				"ms-vscode.vscode-typescript-next",
 				"dbaeumer.vscode-eslint",
 				"esbenp.prettier-vscode",
-				"csstools.postcss"
+				"csstools.postcss",
+				"streetsidesoftware.code-spell-checker"
 			]
 		}
 	}
