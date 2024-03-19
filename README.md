@@ -25,8 +25,7 @@
 
 <img src="public/easy-abc/readme-fork-button.png" alt="Alt text" style="width:90%; height:auto; margin-right: auto; display: flex; margin-left: auto; margin-bottom: 2em; border-radius: 0.5rem;">
 
-- Name your repository with the format: `GITHUB_USERNAME.github.io`.
-
+- Name your repository with the format: `GITHUB_USERNAME.github.io`. <mark>This format must be used!</mark>
   - For example mine is `shelbyjenkins.github.io`.
 
 <img src="public/easy-abc/readme-fork-name.png" alt="Alt text" style="width:70%; height:auto; margin-right: auto; display: flex; margin-left: auto; margin-bottom: 2em; border-radius: 0.5rem;">
@@ -37,11 +36,7 @@
 
 <h4>Preview the site</h4>
 
-- It will take a 60-120s for the codespace to build for the first time.
-
-- After the codespace has finished building, open a terminal, and start the local dev server with `npm run dev`.
-
-<img src="public/easy-abc/readme-terminal.png" alt="Alt text" style="width:70%; height:auto; margin-right: auto; display: flex; margin-left: auto; margin-bottom: 2em; border-radius: 0.5rem;">
+- It will take a 60-120s for the codespace to build for the first time. When it's done, a new terminal will automatically start and `npm run dev` will be run starting the local dev server for you.
 
 - Click on the link in the terminal. This will open a local version of the site in your browser. You can use this to preview your changes.
 
@@ -51,6 +46,10 @@
 
 <details closed>
   <summary><h2>Publish your Blog</h2></summary>
+
+<h4>Personalization</h4>
+
+- Every setting you need to change along with instructions for them will be in `public/easyAbcUserConfig.ts`
 
 <h4>Adding your content</h4>
 
@@ -67,10 +66,6 @@
 - You can write in your favorite text editor and convert to markdown with tools like xyz and zyx.
   - For general markdown instructions see Astro's [general markdown guide](https://shelbyjenkins.github.io/easy/blog/markdown-style-guide/) for some notes.
   - And also the [EasyABC markdown specifics guide](https://shelbyjenkins.github.io/easy/blog/easy-a-b-c-markdown-specifics/).
-
-<h4>Personalization</h4>
-
-- Every setting you need to change along with instructions for them will be in `public/easyAbcUserConfig.ts`
 
 <h4>Deploy to Github Pages</h4>
 
