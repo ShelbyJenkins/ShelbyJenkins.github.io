@@ -6,7 +6,7 @@ description: 'This post is used to generate new posts. It also contains instruct
 # Published date is required and in the format of ISO-8601: `yyyy-mm-dd`. For more info see https://docs.astro.build/en/guides/content-collections/#working-with-dates-in-the-frontmatter
 pubDate: 2023-01-01
 # Optionally specify an update date. If not provided, one will be generated from the git history. Only if the post has been changed since the day published.
-modifiedDate: 2023-01-01
+modifiedDate: 2023-01-02
 heroImage: './hero.png'
 # Optional
 heroAlt: 'Describe the image for screen readers.'
