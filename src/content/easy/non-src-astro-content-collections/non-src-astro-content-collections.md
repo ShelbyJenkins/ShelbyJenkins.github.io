@@ -1,6 +1,7 @@
 ---
 title: 'Astro content collections in external directories with symlinks'
 pubDate: 2024-03-12
+modifiedDate: 2024-03-12
 heroImage: './hero.webp'
 heroAlt: 'A hero!'
 ---
