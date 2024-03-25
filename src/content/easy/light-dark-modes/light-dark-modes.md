@@ -2,7 +2,6 @@
 title: 'Tailwind Dark Mode: With or Without Javascript.'
 description: 'How to support dark mode, user theme preference, Javascript theme toggles, and disabled Javascript.'
 pubDate: 2024-02-18
-modifiedDate: 2024-02-18
 heroImage: './hero.jpg'
 heroAlt: 'A hero!'
 ---
@@ -60,7 +59,9 @@ Tailwind will throw an error regarding the use of `@apply` nested within a media
 
 `npm install postcss-import`
 
-Then in your postcss.config.mjs add the plugin.
+As well as the [built-in](https://tailwindcss.com/docs/using-with-preprocessors#nesting) `tailwindcss/nesting` plugin.
+
+In your postcss.config.mjs add the plugins.
 
 ```js
 export default {
@@ -115,7 +116,7 @@ An example of a theme toggle script.
 
 Bonus:
 
-You can also disable your theme toggle component using the scripting media query!
+You can also disable your theme toggle component using the scripting media query! This removes it from the rendered page if the user has JS disabled.
 
 ```css
 @media (scripting: none) {
