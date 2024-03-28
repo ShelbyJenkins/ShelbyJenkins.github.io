@@ -59,6 +59,18 @@ These libraries don't handle your dataset, and require more work to implement. H
 
 WIP
 
+## In-process (embedded) databases
+
+There is the traditional server client model of databases, but there is also the embedded model.
+
+> An embedded database is an in-process database management system that's tightly integrated with the application layer. The term "in-process" is important because the database compute runs within the same underlying process as the application (which could be written in any language, like Python, R, JavaScript, C++).
+>
+> A key characteristic of embedded databases is how close the storage layer is to the application layer. Additionally, data that's larger than memory can be stored and queried on-disk, allowing them to scale to pretty huge amounts of data (TB) with relatively low query latencies and response times.
+>
+> — <cite>[Prashanth Rao](https://thedataquarry.com/posts/embedded-db-1/#what-is-an-embedded-database)</cite>
+
+One other advantage of embedded databases is that they're easier to get started with since they can be installed with a package manager and ran from your code.
+
 # Stacks
 
 If you're building greenfield, this is probably a harder decision. Sometimes being boxed into choice is a blessing. So if you're starting from scratch, what do you do? You want something quick to build and iterate on, but also scalable, but also without vendor lock. Analysis paralysis!
