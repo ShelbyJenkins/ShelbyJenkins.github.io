@@ -1,7 +1,7 @@
 ---
 title: 'Retrieval is all you need (Part 1): A brief intro to text retrieval in RAG'
 # Optional
-description: 'Cataloging the SotA technologies and stacks available for retrieval pipelines in Gen AI. Part 1 is a brief intro to RAG, and retrieval techniques.'
+description: 'Cataloging the SotA technologies available and permutations of stacks for retrieval pipelines in Gen AI. Part 1 is a brief intro to RAG, and an overview of retrieval techniques and technologies.'
 
 # Published date is required and in the format of ISO-8601: `yyyy-mm-dd`. For more info see https://docs.astro.build/en/guides/content-collections/#working-with-dates-in-the-frontmatter
 pubDate: 2024-03-17
