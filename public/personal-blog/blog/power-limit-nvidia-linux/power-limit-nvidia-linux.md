@@ -9,8 +9,6 @@ heroImage: './hero.jpg'
 heroAlt: 'Describe the image for screen readers.'
 ---
 
-# Limiting power in Nvidia GPUs
-
 Why? Because you have more compute than your PSU can handle. Or it's summer and you don't need a space heater in your home that you have to pay to power _and_ pay again to remove that power from your home in the form of waste heat. Or you just don't like the idea of wasting power. And at stock GPUs are configured to bench well for gaming, but you really don't need that for many compute activities. You'll be able to find benchmarks for various tasks at different power limits for your GPU. I suggest you use that to set the power limits here. For my 2x 3090s I picked 222w each.
 
 This guide is in thanks to [this excellent post](https://www.pugetsystems.com/labs/hpc/quad-rtx3090-gpu-power-limiting-with-systemd-and-nvidia-smi-1983/). I modified the script to make it a bit more advanced, as well as made the guide step-by-step. Cheers.
@@ -31,7 +29,7 @@ This guide is in thanks to [this excellent post](https://www.pugetsystems.com/la
 #!/usr/bin/env bash
 
 # Set power limits on all NVIDIA GPUs
-# See shelbyjenkins.github for more details
+# See https://shelbyjenkins.github.io/blog/power-limit-nvidia-linux/ for more details
 # Make sure nvidia-smi exists
 command -v nvidia-smi &> /dev/null || { echo >&2 "nvidia-smi not found ... exiting."; exit 1; }
 
@@ -106,7 +104,7 @@ Save the file and exit the text editor (in nano, press Ctrl+X, then Y, and final
 
 ```
 # Set power limits on all NVIDIA GPUs
-# See shelbyjenkins.github for more details
+# See https://shelbyjenkins.github.io/blog/power-limit-nvidia-linux/ for more details
 [Unit]
 Description=NVIDIA GPU Set Power Limit
 After=syslog.target systemd-modules-load.service
