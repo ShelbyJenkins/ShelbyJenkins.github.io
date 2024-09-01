@@ -15,5 +15,5 @@
 		"typescriptreact" // Enable .tsx
 	],
 	"remote.localPortHost": "allInterfaces",
-	"cSpell.words": ["fullscreen"]
+	"cSpell.words": ["embeddable", "fullscreen"]
 }
