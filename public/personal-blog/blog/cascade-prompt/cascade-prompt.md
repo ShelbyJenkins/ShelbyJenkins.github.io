@@ -4,9 +4,9 @@ title: 'Step-Based Cascading Prompts: Deterministic Signals from the LLM Vibe Sp
 description: 'A new technique for enforcing LLM behavior conformance in decision making workflows.'
 
 # Published date is required and in the format of ISO-8601: `yyyy-mm-dd`. For more info see https://docs.astro.build/en/guides/content-collections/#working-with-dates-in-the-frontmatter
-pubDate: 2024-08-31
+pubDate: 2024-09-03
 # Optionally specify an update date. If not provided, one will be generated from the git history. Only if the post has been changed since the day published.
-modifiedDate: 2024-08-31
+modifiedDate: 2024-09-03
 heroImage: './hero.png'
 # Optional
 heroAlt: 'Terminal output from an example Cascade workflow.'
