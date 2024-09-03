@@ -1,5 +1,5 @@
 ---
-title: 'RAG: The Shaky Foundation of AI'
+title: 'Text Segmentation for RAG and the Shaky Foundation of AI'
 description: "Text segmentation and it's common shortcoming in RAG, LLMs, and AI."
 pubDate: 2024-06-30
 heroImage: './hero.webp'
